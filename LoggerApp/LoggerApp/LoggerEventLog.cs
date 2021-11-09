@@ -3,13 +3,13 @@ using System.Diagnostics;
 
 namespace LoggerApp
 {
-    class MyEventLog
+    class LoggerEventLog : ILogger
     {
         // The name of source in the Event log
         static string logSource = "logger app";
 
         // The Information event log
-        public static void Error(string message)
+        public void Error(string message)
         {
             Console.WriteLine(message);
             EventLog log = new EventLog();
@@ -18,7 +18,7 @@ namespace LoggerApp
         }
 
         // The Information event log
-        public static void Info(string message)
+        public void Info(string message)
         {
             Console.WriteLine(message);
             EventLog log = new EventLog();
@@ -27,21 +27,12 @@ namespace LoggerApp
         }
 
         // The Information event log
-        public static void Warning(string message)
+        public void Warning(string message)
         {
             Console.WriteLine(message);
             EventLog log = new EventLog();
             log.Source = logSource;
             log.WriteEntry(message, EventLogEntryType.Warning);
-        }
-
-        // The Information event log
-        public static void Success(string message)
-        {
-            Console.WriteLine(message);
-            EventLog log = new EventLog();
-            log.Source = logSource;
-            log.WriteEntry(message, EventLogEntryType.SuccessAudit);
         }
     }
 }

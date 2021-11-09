@@ -2,10 +2,10 @@
 
 namespace LoggerApp
 {
-    class LoggerConsole
+    class LoggerConsole : ILogger
     {
         // The Information consol log
-        public static void Info(string message)
+        public void Info(string message)
         {
             Log.Logger = new LoggerConfiguration()
             .WriteTo.Console()
@@ -15,7 +15,7 @@ namespace LoggerApp
         }
 
         // The Warning consol log
-        public static void Warning(string message)
+        public void Warning(string message)
         {
             Log.Logger = new LoggerConfiguration()
             .WriteTo.Console()
@@ -25,23 +25,13 @@ namespace LoggerApp
         }
 
         // The Error console log
-        public static void Error(string message)
+        public void Error(string message)
         {
             Log.Logger = new LoggerConfiguration()
             .WriteTo.Console()
             .CreateLogger();
 
             Log.Error(message);
-        }
-
-        // The Fatal Error console log
-        public static void FatalError(string message)
-        {
-            Log.Logger = new LoggerConfiguration()
-            .WriteTo.Console()
-            .CreateLogger();
-
-            Log.Fatal(message);
         }
     }
 }

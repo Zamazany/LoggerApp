@@ -27,7 +27,6 @@ C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerAp
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\obj\Debug\netcoreapp3.1\LoggerApp.dll
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\obj\Debug\netcoreapp3.1\LoggerApp.pdb
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\obj\Debug\netcoreapp3.1\LoggerApp.genruntimeconfig.cache
-C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\obj\Debug\netcoreapp3.1\LoggerApp.csprojAssemblyReference.cache
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\bin\Debug\netcoreapp3.1\Serilog.dll
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
@@ -37,3 +36,4 @@ C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerAp
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.Messages.dll
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
 C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\obj\Debug\netcoreapp3.1\LoggerApp.csproj.CoreCompileInputs.cache
+C:\Users\jsobansx\OneDrive - Intel Corporation\Desktop\logger\LoggerApp\LoggerApp\obj\Debug\netcoreapp3.1\LoggerApp.csprojAssemblyReference.cache
